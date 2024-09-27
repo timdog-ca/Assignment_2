@@ -1,0 +1,81 @@
+@import url("https://use.typekit.net/bkw0dsg.css");
+
+body {
+    background-color:#FCDEC0;
+    padding:25px;
+}
+
+div#header {
+    text-align: center;
+}
+
+img.businesslogo {
+    width:500px;
+}
+
+img.businessicon {
+    width:50px;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: "bree-serif", serif;
+    font-weight: 700;  
+    text-align: center;
+    color:#577289;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: "bree-serif", serif;
+    font-weight: 400;  
+    text-align: center;
+    color:#875539;
+}
+
+p {
+    font-size: 12px;
+    font-family: "bree-serif", serif;
+    font-weight: 400;  
+    text-align: center;
+    color:#577289;
+    margin:0;
+}
+
+div.sociallinks {
+    display: flex;
+    flex-direction: column;
+}
+
+a.socialbutton {
+    margin:0 auto 15px;
+    text-align: center;
+    display:block;
+    background-color:#C68B59;
+    width: 40%;
+    text-decoration: none;
+    font-family: "bree-serif", serif;
+    font-weight: 700;  
+    color:#ffffff;
+    padding:15px 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+a.socialbutton:hover {
+    background-color:#C68B59;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+a.socialbutton:active {
+    background-color:#C68B59;
+    box-shadow: inset rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+div.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height:200px;
+}
