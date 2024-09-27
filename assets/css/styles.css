@@ -1,94 +1,216 @@
 @import url("https://use.typekit.net/bkw0dsg.css");
 
-body {
-    background-color:#FCDEC0;
-}
+/* media break for mobile phones */
 
-div#header {
-    text-align: center;
-}
+@media screen and (max-width: 576px) {
 
-/* Header Section */
-header {
-    text-align:center;
-}
+    body {
+        background-color: #FCDEC0;
+    }
 
-header img.businesslogo {
-    width:50%;
-    min-width: 300px;
-}
+    /* Header Section */
+    header {
+        text-align: center;
+    }
 
-/* main */
+    header img.businesslogo {
+        width: 50%;
+        min-width: 300px;
+        text-align: center;
+    }
 
-h2 {
-    font-size: 1.5em;
-    font-family: "bree-serif", serif;
-    font-weight: 700;  
-    text-align: center;
-    color:#577289;
-}
+    /* main */
 
-h3 {
-    font-family: "bree-serif", serif;
-    font-weight: 400;  
-    font-size: 1.5em;
-    text-align: center;
-    color:#875539;
-    margin: 10px 0 5px;
-}
+    h2 {
+        font-size: 1.5em;
+        font-family: "bree-serif", serif;
+        font-weight: 700;
+        text-align: center;
+        color: #577289;
+    }
 
-main article.sociallinks {
-    display: flex;
-    flex-direction: column;
-}
+    h3 {
+        font-family: "bree-serif", serif;
+        font-weight: 400;
+        font-size: 1.5em;
+        text-align: center;
+        color: #875539;
+        margin: 10px 0 5px;
+    }
 
-main section article a.socialbutton {
-    margin:0 auto 15px;
-    text-align: center;
-    display:block;
-    background-color:#C68B59;
-    width: 80%;
-    text-decoration: none;
-    font-family: "bree-serif", serif;
-    font-weight: 700;
-    font-size: 1em;
-    color:#ffffff;
-    padding:15px 25px;
-    cursor: pointer;
-    border-radius: 10px;
-}
+    main {}
 
-main section article a.socialbutton:hover {
-    background-color:#C68B59;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
-}
+    main article.sociallinks {
+        display: flex;
+        flex-direction: column;
+    }
 
-main section article a.socialbutton:active {
-    background-color:#C68B59;
-    box-shadow: inset rgba(0, 0, 0, 0.5) 0px 5px 15px;
-}
+    main section article a.socialbutton {
+        margin: 0 auto 15px;
+        text-align: center;
+        display: block;
+        background-color: #C68B59;
+        width: 80%;
+        text-decoration: none;
+        font-family: "bree-serif", serif;
+        font-weight: 700;
+        font-size: 1em;
+        color: #ffffff;
+        padding: 15px 25px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    main section article a.socialbutton:hover {
+        background-color: #C68B59;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    }
+
+    main section article a.socialbutton:active {
+        background-color: #C68B59;
+        box-shadow: inset rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    }
 
 
-/* Footer Section */
+    /* Footer Section */
 
-footer section {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    height:15vh;
-}
+    footer {}
 
-footer section img.businessicon {
-    width:50px;
-}
+    footer section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: 15vh;
+    }
 
-footer section p {
+    footer section img.businessicon {
+        width: 50px;
+    }
+
+    footer section p {
         font-size: 1em;
         font-family: "bree-serif", serif;
-        font-weight: 400;  
+        font-weight: 400;
         text-align: center;
-        color:#577289;
-        margin:0; 
+        color: #577289;
+        margin: 0;
+    }
+
 }
 
+/* media break for devices larger than mobile phone */
+
+@media screen and (min-width: 577px) {
+
+    body {
+        background-color: #ffffff;
+    }
+
+    /* Header Section */
+    header {
+        padding: 20px 20px 0;
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+        width: 600px;
+        background-color: #FCDEC0;
+        margin: 25px auto 0;
+    }
+
+    header img.businesslogo {
+        width: 50%;
+        min-width: 300px;
+    }
+
+    /* main */
+
+    h2 {
+        font-size: 1.5em;
+        font-family: "bree-serif", serif;
+        font-weight: 700;
+        text-align: center;
+        color: #577289;
+        margin: 10px 0 5px;
+    }
+
+    h3 {
+        font-family: "bree-serif", serif;
+        font-weight: 400;
+        font-size: 1.5em;
+        text-align: center;
+        color: #875539;
+        margin: 10px 0 5px;
+    }
+
+    main {
+        width: 600px;
+        background-color: #FCDEC0;
+        margin: 0 auto 0;
+        padding: 10px 20px 20px;
+
+    }
+
+    main article.sociallinks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section article a.socialbutton {
+        margin: 0 auto 15px;
+        text-align: center;
+        display: block;
+        background-color: #C68B59;
+        width: 80%;
+        text-decoration: none;
+        font-family: "bree-serif", serif;
+        font-weight: 700;
+        font-size: 1em;
+        color: #ffffff;
+        padding: 15px 25px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    main section article a.socialbutton:hover {
+        background-color: #C68B59;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    }
+
+    main section article a.socialbutton:active {
+        background-color: #C68B59;
+        box-shadow: inset rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    }
+
+
+    /* Footer Section */
+
+    footer {
+        width: 600px;
+        background-color: #FCDEC0;
+        margin: 0 auto 25px;
+        padding: 0 20px 20px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    footer section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: 15vh;
+    }
+
+    footer section img.businessicon {
+        width: 50px;
+    }
+
+    footer section p {
+        font-size: 1em;
+        font-family: "bree-serif", serif;
+        font-weight: 400;
+        text-align: center;
+        color: #577289;
+        margin: 0;
+    }
+
+}
