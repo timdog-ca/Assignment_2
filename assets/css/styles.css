@@ -66,11 +66,6 @@
         box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
     }
 
-    main section article a.socialbutton:active {
-        background-color: #C68B59;
-        box-shadow: inset rgba(0, 0, 0, 0.5) 0px 5px 15px;
-    }
-
 
     /* Footer Section */
 
